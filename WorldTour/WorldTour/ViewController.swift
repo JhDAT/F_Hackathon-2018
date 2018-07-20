@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Colorify
 
 class ViewController: UIViewController {
 
