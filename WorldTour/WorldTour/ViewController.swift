@@ -8,7 +8,6 @@
 
 import UIKit
 import MapKit
-
 import Colorify
 
 class ViewController: UIViewController {
@@ -23,7 +22,7 @@ class ViewController: UIViewController {
         
         setView() //뷰의 색을 변경
         setMapView()
-        setScrollView()
+//        setScrollView()
     }
     
     override func didReceiveMemoryWarning() {
