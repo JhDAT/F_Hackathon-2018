@@ -13,6 +13,7 @@
 		598A419921017B90005F3A39 /* WorldTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 598A419721017B90005F3A39 /* WorldTour.xcdatamodeld */; };
 		598A419B21017B91005F3A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598A419A21017B91005F3A39 /* Assets.xcassets */; };
 		598A419E21017B91005F3A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A419C21017B91005F3A39 /* LaunchScreen.storyboard */; };
+		598A41A82101815C005F3A39 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A41A72101815C005F3A39 /* WeatherData.swift */; };
 		B4DC8D772AE86BF8FB3CB1B7 /* Pods_WorldTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC98AA71851F46B17CDF7D8 /* Pods_WorldTour.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		598A419A21017B91005F3A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		598A419D21017B91005F3A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		598A419F21017B91005F3A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		598A41A72101815C005F3A39 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = "/Users/jojanghui/Documents/GitHub/tour/F_Hackathon-2018/WorldTour/WorldTour/WeatherData.swift"; sourceTree = "<absolute>"; };
 		64ADB3AA965F1027D438E1C5 /* Pods-WorldTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldTour.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldTour/Pods-WorldTour.release.xcconfig"; sourceTree = "<group>"; };
 		F64D02764F0DBFFB79B99DFE /* Pods-WorldTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldTour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorldTour/Pods-WorldTour.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 		598A418F21017B90005F3A39 /* WorldTour */ = {
 			isa = PBXGroup;
 			children = (
+				598A41AA21018177005F3A39 /* Data */,
 				598A419021017B90005F3A39 /* AppDelegate.swift */,
 				598A419221017B90005F3A39 /* ViewController.swift */,
 				598A419421017B90005F3A39 /* Main.storyboard */,
@@ -80,6 +83,14 @@
 				598A419721017B90005F3A39 /* WorldTour.xcdatamodeld */,
 			);
 			path = WorldTour;
+			sourceTree = "<group>";
+		};
+		598A41AA21018177005F3A39 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				598A41A72101815C005F3A39 /* WeatherData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		E67C2B23CB4E3777BCD10D6C /* Pods */ = {
@@ -205,6 +216,7 @@
 			files = (
 				598A419321017B90005F3A39 /* ViewController.swift in Sources */,
 				598A419121017B90005F3A39 /* AppDelegate.swift in Sources */,
+				598A41A82101815C005F3A39 /* WeatherData.swift in Sources */,
 				598A419921017B90005F3A39 /* WorldTour.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

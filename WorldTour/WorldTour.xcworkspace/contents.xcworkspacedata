@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/jojanghui/Documents/GitHub/tour/F_Hackathon-2018/WorldTour/WorldTour/WeatherData.swift">
+   </FileRef>
+   <FileRef
       location = "group:WorldTour.xcodeproj">
    </FileRef>
    <FileRef
