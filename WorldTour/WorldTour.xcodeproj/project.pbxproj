@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13B2C80B2101B8CF00DF2189 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2C80A2101B8CF00DF2189 /* GetData.swift */; };
 		598A419121017B90005F3A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A419021017B90005F3A39 /* AppDelegate.swift */; };
 		598A419321017B90005F3A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A419221017B90005F3A39 /* ViewController.swift */; };
-		598A419621017B90005F3A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A419421017B90005F3A39 /* Main.storyboard */; };
 		598A419921017B90005F3A39 /* WorldTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 598A419721017B90005F3A39 /* WorldTour.xcdatamodeld */; };
 		598A419B21017B91005F3A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598A419A21017B91005F3A39 /* Assets.xcassets */; };
-		598A419E21017B91005F3A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A419C21017B91005F3A39 /* LaunchScreen.storyboard */; };
 		598A41B02101887F005F3A39 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A41AF2101887F005F3A39 /* WeatherData.swift */; };
-		598A41B221018922005F3A39 /* GetDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598A41B121018922005F3A39 /* GetDataViewController.swift */; };
+		598A41B72101B4A8005F3A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A41B62101B4A8005F3A39 /* Main.storyboard */; };
+		598A41B92101B4B8005F3A39 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598A41B82101B4B8005F3A39 /* Launch Screen.storyboard */; };
 		B4DC8D772AE86BF8FB3CB1B7 /* Pods_WorldTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC98AA71851F46B17CDF7D8 /* Pods_WorldTour.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13B2C80A2101B8CF00DF2189 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 		4BC98AA71851F46B17CDF7D8 /* Pods_WorldTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A418D21017B90005F3A39 /* WorldTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A419021017B90005F3A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		598A419221017B90005F3A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		598A419521017B90005F3A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		598A419821017B90005F3A39 /* WorldTour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTour.xcdatamodel; sourceTree = "<group>"; };
 		598A419A21017B91005F3A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		598A419D21017B91005F3A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		598A419F21017B91005F3A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		598A41AF2101887F005F3A39 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
-		598A41B121018922005F3A39 /* GetDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataViewController.swift; sourceTree = "<group>"; };
+		598A41B62101B4A8005F3A39 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		598A41B82101B4B8005F3A39 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		64ADB3AA965F1027D438E1C5 /* Pods-WorldTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldTour.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldTour/Pods-WorldTour.release.xcconfig"; sourceTree = "<group>"; };
 		F64D02764F0DBFFB79B99DFE /* Pods-WorldTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldTour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorldTour/Pods-WorldTour.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,11 +77,11 @@
 			children = (
 				598A419021017B90005F3A39 /* AppDelegate.swift */,
 				598A419221017B90005F3A39 /* ViewController.swift */,
-				598A41B121018922005F3A39 /* GetDataViewController.swift */,
+				13B2C80A2101B8CF00DF2189 /* GetData.swift */,
+				598A41B62101B4A8005F3A39 /* Main.storyboard */,
 				598A41AF2101887F005F3A39 /* WeatherData.swift */,
-				598A419421017B90005F3A39 /* Main.storyboard */,
 				598A419A21017B91005F3A39 /* Assets.xcassets */,
-				598A419C21017B91005F3A39 /* LaunchScreen.storyboard */,
+				598A41B82101B4B8005F3A39 /* Launch Screen.storyboard */,
 				598A419F21017B91005F3A39 /* Info.plist */,
 				598A419721017B90005F3A39 /* WorldTour.xcdatamodeld */,
 			);
@@ -157,9 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598A419E21017B91005F3A39 /* LaunchScreen.storyboard in Resources */,
+				598A41B72101B4A8005F3A39 /* Main.storyboard in Resources */,
+				598A41B92101B4B8005F3A39 /* Launch Screen.storyboard in Resources */,
 				598A419B21017B91005F3A39 /* Assets.xcassets in Resources */,
-				598A419621017B90005F3A39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598A41B221018922005F3A39 /* GetDataViewController.swift in Sources */,
 				598A419321017B90005F3A39 /* ViewController.swift in Sources */,
+				13B2C80B2101B8CF00DF2189 /* GetData.swift in Sources */,
 				598A419121017B90005F3A39 /* AppDelegate.swift in Sources */,
 				598A41B02101887F005F3A39 /* WeatherData.swift in Sources */,
 				598A419921017B90005F3A39 /* WorldTour.xcdatamodeld in Sources */,
@@ -218,25 +218,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		598A419421017B90005F3A39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				598A419521017B90005F3A39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		598A419C21017B91005F3A39 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				598A419D21017B91005F3A39 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		598A41A021017B91005F3A39 /* Debug */ = {
